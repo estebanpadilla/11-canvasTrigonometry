@@ -53,7 +53,7 @@ function init() {
         xtext.text = 'x: ' + (mx - x) / 20;
         ytext.text = 'y: ' + (my - y) / 20;
 
-        var angler = Vector(vector.p1.x, vector.p1.y).angleTo(Vector(vector.p2.x, vector.p2.y));
+        let angler = Vector(vector.p1.x, vector.p1.y).angleTo(Vector(vector.p2.x, vector.p2.y));
         //console.log(angle);
 
         ctext.text = 'cos: ' + Math.fround(Math.cos(angler));
